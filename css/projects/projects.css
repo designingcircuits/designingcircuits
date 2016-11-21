@@ -1,0 +1,19 @@
+div#content {
+  margin: auto;
+  bottom: auto;
+  width: 1000px;
+}
+
+.row{
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+}
+
+.square{
+  flex: 4;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
