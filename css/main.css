@@ -157,6 +157,7 @@ a:active{
 div#page {
   position: absolute;
   margin: auto;
+  bottom: auto;
   font-family: 'Roboto', sans-serif;
   text-align: justify;
   top: 145px;
@@ -164,6 +165,7 @@ div#page {
   left: 0px;
   right: 0px;
 }
+
 
 /*-----------footer-----------------*/
 div#footer {
