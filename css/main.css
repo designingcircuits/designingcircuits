@@ -1,15 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /*-----------header-----------------*/
 body {
-  background-color: white;
-  /*background-image: url(../img/background.jpg);*/
+  background-color: #F5F5F5;
   font-family: Arial, Helvetica, sans-serif;
-
-}
-
-p{
-  font-family: 'Roboto', sans-serif;
-  text-align: justify;
 }
 
 div#header {
@@ -20,9 +13,8 @@ div#header {
   right: 0px;
   width: 1050px;
   margin: auto;
-  border-top: 4px solid #ffd100;
-  border-bottom: 4px solid #ffd100;
-  border-radius: 4px;
+  border-top: 3px solid #ffd100;
+  border-bottom: 3px solid #ffd100;
 }
 
 #title {
@@ -31,8 +23,8 @@ div#header {
 }
 
 div#logo {
-  border-top: 6px solid black;
-  border-bottom: 6px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
   padding: 5px 70px;
   background-color: #d3d3d3;
 
@@ -52,6 +44,7 @@ ul#menu {
   padding: 0;
   overflow: hidden;
   background-color: black;
+
 }
 ul#menu li {
   float: left;
@@ -78,7 +71,7 @@ ul#menu .active {
 
 div#search {
   position: absolute;
-  top: 14px;
+  top: 11px;
   right: 70px;
 }
 #tfnewsearch{
@@ -88,27 +81,26 @@ div#search {
   margin: 0;
   padding: 5px 15px;
   font-size:14px;
-  border:1px solid black; border-right:0px;
-  border-top-left-radius: 5px 5px;
-  border-bottom-left-radius: 5px 5px;
+  border: 1px solid #d3d3d3;
+  border-right: 0px;
+
 }
+
 .tfbutton {
   margin: 0;
   padding: 5px 15px;
   font-size:14px;
-  outline: none;
+  border-left: 0px;
+
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   color: black;
-  border: solid 1px black;
+  border: solid 1px #d3d3d3;
   background: #ffd100;
-  border-top-right-radius: 5px 5px;
-  border-bottom-right-radius: 5px 5px;
 }
 .tfbutton:hover {
   text-decoration: none;
-  background: #FFF200;
 }
 .tfbutton::-moz-focus-inner {
   border: 0;
@@ -117,41 +109,66 @@ div#search {
   clear:both;
 }
 
+#me{
+  height: 150px;
+  weight: 150px;
+  margin-right: 0px;
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  float: right;
+}
+
 .pictype1 {
-  height: 100px;
-  weight: 100px;
-  float: right;
-  margin: 0px 0px 15px 15px;
-}
-
-.testpic {
-  height: 100px;
-  weight: 100px;
   float: right;
   margin: 0px 0px 15px 15px;
 }
 
 
+.row{
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+}
+
+.square{
+  flex: 4;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+a{
+  color: #ffc300;
+  text-decoration: none;
+}
+a:visited{
+  color: #ffc300;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color: red;
+}
 
 /*-----------Page-----------*/
 div#page {
   position: absolute;
   margin: auto;
-
-  top: 165px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  top: 145px;
+  width: 900px;
   left: 0px;
   right: 0px;
-
-  background-color: white;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
 }
 
 /*-----------footer-----------------*/
 div#footer {
   position: absolute;
   margin: auto;
-
   color: black;
   width: 100%;
   height: 50px;
