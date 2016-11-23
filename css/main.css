@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /*-----------header-----------------*/
+
+html{
+  font-size: 100%;
+}
+
+@media(min-width:60em){
+  html{
+    font-size: 100%;
+  }
+}
+
 body {
   background-color: #F5F5F5;
   font-family: Arial, Helvetica, sans-serif;
