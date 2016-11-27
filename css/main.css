@@ -54,7 +54,6 @@ ul#menu {
   padding: 0;
   overflow: hidden;
   background-color: black;
-
 }
 ul#menu li {
   float: left;
@@ -162,6 +161,9 @@ a:hover{
 a:active{
   color: red;
 }
+
+
+
 
 /*-----------Page-----------*/
 div#page {
