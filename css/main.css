@@ -2,7 +2,8 @@
 /*-----------header-----------------*/
 
 body {
-  background-color: #F5F5F5;
+  /*background-color: #F5F5F5;*/
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2em;
   font-size: 16px;
@@ -36,8 +37,7 @@ div#logo {
   border-top: 4px solid black;
   border-bottom: 4px solid black;
   padding: 5px 70px;
-  background-color: #d3d3d3;
-
+  background-color: #dfdfdf;
 }
 
 div#nav {
@@ -131,6 +131,17 @@ div#search {
 .pictype1 {
   float: right;
   margin: 0px 0px 15px 15px;
+}
+
+.homenav{
+
+}
+
+.homepics{
+  height: 175px;
+  width: 190px;
+  float: left;
+  margin-right: 10px;
 }
 
 
