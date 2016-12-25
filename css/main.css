@@ -223,7 +223,9 @@ div#page {
 /*----------------------------------------------------------*/
 
 #pic404{
-  margin-left: auto;
-  margin-right:auto;
+  
+  display: block;
+   margin-left: auto;
+   margin-right:auto;
   height: 404px;
 }
