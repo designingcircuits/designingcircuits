@@ -222,10 +222,9 @@ div#page {
 }
 /*----------------------------------------------------------*/
 
-#pic404{
-  
+#pic404{  
   display: block;
-   margin-left: auto;
-   margin-right:auto;
+  margin-left: auto;
+  margin-right:auto;
   height: 404px;
 }
