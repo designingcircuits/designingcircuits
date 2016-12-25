@@ -146,7 +146,6 @@ div#search {
   padding-right: 10px;
 }
 
-
 .row{
   flex: 5;
   display: flex;
@@ -224,7 +223,5 @@ div#page {
 /*----------------------------------------------------------*/
 
 #pic404{
-  float: center;
   height: 300px;
-
 }
