@@ -223,6 +223,7 @@ div#page {
 /*----------------------------------------------------------*/
 
 #pic404{
-  float: center;
-  height: 300px;
+  margin-left: auto;
+  margin-right:auto;
+  height: 404px;
 }
