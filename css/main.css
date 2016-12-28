@@ -18,6 +18,19 @@ body {
 
 p{
   font-size: 100%;
+  padding-left: 10px;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+
+h1{
+  margin-bottom: .5em;
+}
+h2{
+  margin-bottom: .5em;
+}
+li{
+  margin-bottom: .25em;
 }
 
 
@@ -63,12 +76,15 @@ ul#menu {
 }
 ul#menu li {
   float: left;
+  margin: 0;
 }
 ul#menu li:last-child {
   border-right: none;
+  margin: 0;
 }
 ul#menu li a {
   display: block;
+  margin: 0;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -177,7 +193,10 @@ a:active{
 
 
 /*-----------Page-----------*/
-#wrap {min-height: 100%;}
+#wrap{
+  padding-left: 10px;
+  min-height: 100%;
+}
 
 div#page {
   margin-left: auto;
@@ -199,7 +218,7 @@ div#page {
   background-color: white;
 	margin-top: -50px; /* negative value of footer height */
 	height: 50px;
-	clear:both;
+	clear: both;
   color: gray;
 }
 .footernav{
@@ -222,7 +241,7 @@ div#page {
 }
 /*----------------------------------------------------------*/
 
-#pic404{  
+#pic404{
   display: block;
   margin-left: auto;
   margin-right:auto;
