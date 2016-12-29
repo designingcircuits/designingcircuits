@@ -173,12 +173,17 @@ div#search {
   float: right;
   padding: 0px 0px 15px 15px;
 }
-
 .homepics{
   height: 140px;
   width: 156px;
   float: left;
-  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.homenav{
+  height: auto;
+  width: auto;
+  margin-bottom: 1.5em;
 }
 
 .row{
@@ -206,12 +211,6 @@ a:hover{
 }
 a:active{
   color: red;
-}
-
-
-.homenav{
-  height: auto;
-  width: auto;
 }
 
 
