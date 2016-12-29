@@ -7,30 +7,39 @@ html{
   height: 100%;
 }
 body {
-  /*background-color: #F5F5F5;*/
   margin: 0;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2em;
-  font-size: 16px;
   height: 100%;
 }
 
 p{
   font-size: 100%;
   padding-left: 10px;
-  margin-top: 0em;
+  margin-top: 0;
   margin-bottom: 1em;
 }
 
 h1{
-  font-size: 175%;
-  margin-bottom: .5em;
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
 h2{
-  font-size: 150%;
-  margin-bottom: .5em;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
+
 li{
   margin-bottom: .25em;
 }
@@ -143,12 +152,16 @@ div#search {
 }
 
 #me{
-  height: 9em;
+
   padding-right: 0em;
   padding-left: 1em;
   padding-top: 0em;
   padding-bottom: 1em;
   float: right;
+
+
+  max-height: 9em;
+  width: auto;
 }
 
 .pictype1 {
