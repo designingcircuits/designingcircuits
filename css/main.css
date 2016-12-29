@@ -191,11 +191,11 @@ a:active{
 
 
 .homenav{
-  height: 140px;
+  height: auto;
   width: auto;
 }
 .extra{
-  margin-bottom: 2em;
+  
 }
 
 
