@@ -154,14 +154,14 @@ div#search {
 #me{
 
   padding-right: 0em;
-  padding-left: 1em;
+  padding-left: .75em;
   padding-top: 0em;
-  padding-bottom: 1em;
+  padding-bottom: .75em;
   float: right;
 
-
-  max-height: 9em;
-  width: auto;
+  width: 150px;
+  max-width: 100%;
+  height: auto;
 }
 
 .pictype1 {
@@ -244,8 +244,8 @@ div#page {
 }
 .footernav{
   text-align: center;
-  font-size: 80%;
-  padding-top: 25px;
+  font-size: .8em;
+  padding-top: 2em;
 }
 .footlink{
   color: gray;
