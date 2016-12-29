@@ -248,11 +248,15 @@ div#page {
   color: gray;
 }
 .footernav{
+  height: auto;
+  width: auto;
   text-align: center;
-  font-size: .8em;
-  padding-top: 2em;
+  font-size: 80%;
+  padding-top: 1.5em;
 }
 .footlink{
+  font-size: 100%;
+  margin: 0;
   color: gray;
   text-decoration: none;
 }
