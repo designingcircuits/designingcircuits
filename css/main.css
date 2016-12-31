@@ -90,7 +90,7 @@ ul#menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+
   background-color: black;
 }
 ul#menu li {
@@ -107,9 +107,12 @@ ul#menu li a {
   color: white;
   font-weight: bold;
   text-align: center;
-  padding: 14px 16px;
+  
   text-decoration: none;
 }
+
+
+
 ul#menu a:hover:not(.active) {
   color: black;
   background-color: #ffd100;
