@@ -1,5 +1,4 @@
 
-
 div#header {
   position: absolute;
   font-size: 100%;
@@ -46,19 +45,17 @@ ul#menu {
 }
 ul#menu li {
   float: left;
-  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 14px;
 }
 ul#menu li:last-child {
   border-right: none;
   margin: 0;
 }
 ul#menu li a {
-  display: block;
-  margin: auto;
+  padding: 16px 16px;
   color: white;
-  font-weight: bold;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -93,7 +90,6 @@ div#search {
   padding: 5px 15px;
   font-size:14px;
   border-left: 0px;
-
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -116,6 +112,6 @@ div#search {
 #pic404{
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   height: 404px;
 }
