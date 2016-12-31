@@ -33,10 +33,12 @@ div#nav {
   background-color: black;
 }
 
+
+
 ul#menu {
   position: absolute;
   height: 47px;
-  width: 534.05px;
+  width: auto;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -44,7 +46,7 @@ ul#menu {
   background-color: black;
 }
 ul#menu li {
-  float: left;
+  display: inline;
   font-weight: bold;
   text-align: center;
   padding-top: 14px;
@@ -55,18 +57,19 @@ ul#menu li:last-child {
 }
 ul#menu li a {
   padding: 16px 16px;
+  width: auto;
   color: white;
   text-decoration: none;
 }
-
 ul#menu a:hover:not(.active) {
   color: black;
   background-color: #ffd100;
-
 }
 ul#menu .active {
   background-color: #ffd100;
 }
+
+
 
 div#search {
   position: absolute;
