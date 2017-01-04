@@ -23,6 +23,8 @@ p{
 img{
     max-width: 100%;
     height: auto;
+    margin: auto;
+    display: block;
 }
 
 h1{
@@ -46,8 +48,6 @@ h2{
 
 #title{
     width: 360px;
-    margin: auto;
-    display: block;
     padding: 8px 0;
 }
 
@@ -94,30 +94,31 @@ h2{
     height: 48px;
   	clear: both;
     color: gray;
-}
-.footernav{
     display: block;
     height: auto;
     width: auto;
     text-align: center;
     font-size: 80%;
 }
-.footernav a{
+
+#footer a{
     margin: 0;
     color: gray;
     text-decoration: none;
 }
-.footernav a:visited{
+#footer a:visited{
     color: gray
 }
-.footernav a:hover{
+#footer a:hover{
     color: #ffc300;
 }
-.footernav a:active{
+#footer a:active{
     color: #ffc300;
 }
 
-
+.homepics{
+    width: 200px;
+}
 
 @media only screen and (min-width: 700px) {
     body {
