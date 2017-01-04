@@ -14,6 +14,13 @@ body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+p{
+  font-size: 100%;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -75,6 +82,9 @@ h2{
   	margin: 0 auto -50px;
 }
 
+#page{
+    text-align: justify;
+}
 #push {
     height: 50px;
 }
@@ -82,7 +92,6 @@ h2{
 #footer {
     height: 50px;
     position: relative;
-    background-color: white;
   	clear: both;
     color: gray;
 }
@@ -91,10 +100,9 @@ h2{
     height: auto;
     width: auto;
     text-align: center;
-    font-size: 80%;
+    font-size: 70%;
 }
 .footlink{
-    font-size: 100%;
     margin: 0;
     color: gray;
     text-decoration: none;
