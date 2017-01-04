@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
 html{
     height: 100%;
 }
@@ -7,16 +8,39 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     background-color: white;
+    font-size: 16px;
     line-height: 1.2em;
     height: 100%;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 #title{
     width: 360px;
-    max-width: 100%;
     margin: auto;
-    height: auto;
     display: block;
     padding: 8px 0;
 }
@@ -45,21 +69,20 @@ body{
 }
 
 #wrap{
-
-
-
+    min-height: 100%;
+  	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  	height: 100%;
+  	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
 }
 
-#page {
-
-
+#push {
+    height: 50px;
 }
 
 #footer {
+    height: 50px;
     position: relative;
     background-color: white;
-  	margin-top: -50px; /* negative value of footer height */
-  	height: 50px;
   	clear: both;
     color: gray;
 }
