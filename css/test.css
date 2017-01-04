@@ -16,7 +16,6 @@ body{
 
 p{
   font-size: 100%;
-  padding-left: 10px;
   margin-top: 0;
   margin-bottom: 1em;
 }
@@ -84,6 +83,8 @@ h2{
 
 #page{
     text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #push {
     height: 50px;
@@ -119,7 +120,7 @@ h2{
 
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 700px) {
     body {
         background-color: lightblue;
     }
