@@ -18,8 +18,7 @@ body{
     margin: auto;
     height: auto;
     display: block;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    padding: 8px;
 }
 
 #menu{
@@ -46,43 +45,44 @@ body{
 }
 
 #wrap{
-  min-height: 100%;
-  border: 1px solid black;
+
+
+
 }
 
 #page {
-  border: 1px solid black;
-  padding-bottom: 50px;
+
+
 }
 
 #footer {
-  position: relative;
-  background-color: white;
-	margin-top: -50px; /* negative value of footer height */
-	height: 50px;
-	clear: both;
-  color: gray;
+    position: relative;
+    background-color: white;
+  	margin-top: -50px; /* negative value of footer height */
+  	height: 50px;
+  	clear: both;
+    color: gray;
 }
 .footernav{
-  height: auto;
-  width: auto;
-  text-align: center;
-  font-size: 80%;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 80%;
 }
 .footlink{
-  font-size: 100%;
-  margin: 0;
-  color: gray;
-  text-decoration: none;
+    font-size: 100%;
+    margin: 0;
+    color: gray;
+    text-decoration: none;
 }
 .footlink:visited{
-  color: gray
+    color: gray
 }
 .footlink:hover{
-  color: #ffc300;
+    color: #ffc300;
 }
 .footlink:active{
-  color: #ffc300;
+    color: #ffc300;
 }
 
 
