@@ -3,13 +3,16 @@
 html{
   height: 100%;
 }
-body {
+body{
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: white;
     line-height: 1.2em;
     height: 100%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-img{
+#title{
     width: 360px;
     max-width: 100%;
     margin: auto;
@@ -31,7 +34,6 @@ img{
     color: white;
     padding: 1px;
 }
-
 #menu .active{
     background-color: #ffd100;
     color: black;
