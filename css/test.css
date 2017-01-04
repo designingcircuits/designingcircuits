@@ -78,7 +78,7 @@ h2{
     min-height: 100%;
   	height: auto !important;
   	height: 100%;
-  	margin: 0 auto -50px;
+  	margin: 0 auto -48px;
 }
 
 #page{
@@ -87,12 +87,11 @@ h2{
     padding-right: 10px;
 }
 #push {
-    height: 50px;
+    height: 48px;
 }
 
 #footer {
-    height: 50px;
-    position: relative;
+    height: 48px;
   	clear: both;
     color: gray;
 }
@@ -101,20 +100,20 @@ h2{
     height: auto;
     width: auto;
     text-align: center;
-    font-size: 70%;
+    font-size: 80%;
 }
-.footlink{
+.footernav a{
     margin: 0;
     color: gray;
     text-decoration: none;
 }
-.footlink:visited{
+.footernav a:visited{
     color: gray
 }
-.footlink:hover{
+.footernav a:hover{
     color: #ffc300;
 }
-.footlink:active{
+.footernav a:active{
     color: #ffc300;
 }
 
