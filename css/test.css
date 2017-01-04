@@ -48,9 +48,17 @@ h2{
     font-weight: bold;
 }
 
+#logo{
+    width: 360px;
+    height: auto;
+    margin: auto;
+}
 #title{
     width: 360px;
-    padding: 8px 0;
+    padding: 0;
+    margin: 0;
+    padding-top: 8px;
+    margin-bottom: 8px;
 }
 
 #menu{
@@ -118,11 +126,13 @@ h2{
     color: #ffc300;
 }
 
-.homepics{
+.picH{
     width: 200px;
     height: auto;
-    display: block;
     margin: auto;
+}
+.homepics{
+    width: 200px;
     margin-bottom: 8px;
 }
 
