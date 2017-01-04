@@ -47,14 +47,12 @@ body{
 
 #wrap{
   min-height: 100%;
+  border: 1px solid black;
 }
 
-div#page {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: justify;
-  overflow:auto;
-	padding-bottom: 50px;
+#page {
+  border: 1px solid black;
+  padding-bottom: 50px;
 }
 
 #footer {
