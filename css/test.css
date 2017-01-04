@@ -18,7 +18,8 @@ body{
     margin: auto;
     height: auto;
     display: block;
-    margin-bottom: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 #menu{
@@ -43,6 +44,49 @@ body{
 #menu li:last-child{
     display: none;
 }
+
+#wrap{
+  min-height: 100%;
+}
+
+div#page {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: justify;
+  overflow:auto;
+	padding-bottom: 50px;
+}
+
+#footer {
+  position: relative;
+  background-color: white;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
+	clear: both;
+  color: gray;
+}
+.footernav{
+  height: auto;
+  width: auto;
+  text-align: center;
+  font-size: 80%;
+}
+.footlink{
+  font-size: 100%;
+  margin: 0;
+  color: gray;
+  text-decoration: none;
+}
+.footlink:visited{
+  color: gray
+}
+.footlink:hover{
+  color: #ffc300;
+}
+.footlink:active{
+  color: #ffc300;
+}
+
 
 
 @media only screen and (min-width: 1000px) {
