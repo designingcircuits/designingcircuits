@@ -14,10 +14,12 @@ body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+
+
 p{
-  font-size: 100%;
-  margin-top: 0;
-  margin-bottom: 1em;
+    font-size: 100%;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 img{
@@ -118,7 +120,13 @@ h2{
 
 .homepics{
     width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 8px;
 }
+
+
 
 @media only screen and (min-width: 700px) {
     body {
