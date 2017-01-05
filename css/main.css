@@ -92,7 +92,7 @@ h2{
     padding: 10px 16px;
     background-color:  #ffd100;
 
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     cursor: pointer;
     border-radius: 5px;
@@ -102,7 +102,10 @@ h2{
     display: none;
 }
 
-#menuToggle:checked  + .nav {display: none;}
+.nav{
+    display: none;
+}
+#menuToggle:checked  + .nav {display: block;}
 
 
 
