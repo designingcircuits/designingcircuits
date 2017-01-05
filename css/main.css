@@ -68,13 +68,14 @@ h2{
     padding: 0;
     background-color: black;
     width: auto;
+    line-height: 30px;
+
 }
 #menu a{
     text-decoration: none;
     display: block;
     text-align: center;
     color: white;
-    padding: 4px 0;
     font-weight: bold;
 }
 #menu .active{
@@ -84,6 +85,24 @@ h2{
 #menu li:last-child{
     display: none;
 }
+
+.menu-icon{
+    float: right;
+    padding: 10px 20px;
+    background-color:  #ffd100;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#menuToggle{
+
+
+}
+
+input[type=checked]:checked ~ .nav{display: none;}
+
+
+
 
 #wrap{
     min-height: 100%;
@@ -127,13 +146,16 @@ h2{
     color: #ffc300;
 }
 
+.homenav{
+    display: block;
+}
 .picH{
     width: 200px;
     height: auto;
     margin: auto;
 }
 .homepics{
-    width: 200px;
+    width: auto;
     margin-bottom: 8px;
 }
 
@@ -141,12 +163,28 @@ h2{
 
 @media only screen and (min-width: 700px) {
     body {
-        background-color: lightblue;
+
     }
     img{
-      width: 300px;
+        width: 300px;
     }
-    #menu li:last-child{
-        display: block;
+    #menu{
+
     }
+    #wrap{
+        width: 800px;
+
+    }
+    .homenav{
+        overflow: hidden;
+        height: auto;
+        margin: auto;
+
+    }
+    .picH{
+        float: left;
+        width: 156px;
+        margin-right: 10px;
+    }
+
 }
