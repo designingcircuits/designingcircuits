@@ -82,24 +82,29 @@ h2{
     background-color: #ffd100;
     color: black;
 }
-#menu li:last-child{
-    display: none;
-}
 
+
+#menubox{
+    overflow: hidden;
+}
 .menu-icon{
     float: right;
-    padding: 10px 20px;
+    padding: 10px 16px;
     background-color:  #ffd100;
+
+    font-size: 24px;
     color: black;
     cursor: pointer;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 #menuToggle{
-
-
+    display: none;
 }
 
-input[type=checked]:checked ~ .nav{display: none;}
+#menuToggle:checked  + .nav {display: none;}
+
+
 
 
 
