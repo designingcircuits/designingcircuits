@@ -64,8 +64,8 @@ h2{
     height: auto;
     width: auto;
     overflow: hidden;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
     background-color: #ffd100;
     border-bottom: 5px solid black;
     padding-bottom: 4px;
@@ -134,8 +134,8 @@ h2{
 }
 
 #page{
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 #push {
     height: 48px;
@@ -182,18 +182,18 @@ h2{
 }
 
 .list{
-    padding-left: 14px;
+    padding-left: 16px;
 }
 
-@media only screen and (min-width: 730px) {
+@media only screen and (min-width: 794px) {
     #menu{
-        right: 14px;
+        right: 16px;
     }
 }
 
-@media only screen and (min-width: 715px) {
+@media only screen and (min-width: 777px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
     img{
         width: 300px;
@@ -239,8 +239,8 @@ h2{
     }
     #top{
         overflow: hidden;
-        padding-left: 14px;
-        padding-right: 14px;
+        padding-left: 16px;
+        padding-right: 16px;
         background-color: #dfdfdf;
         border-top: 4px solid black;
         border-bottom: 4px solid black;
