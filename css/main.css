@@ -8,7 +8,7 @@ body{
 
     margin: 0;
     background-color: white;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 120%;
     height: 100%;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -83,7 +83,7 @@ h2{
     padding: 0;
     background-color: black;
     width: auto;
-    line-height: 30px;
+    line-height: 250%;
 }
 
 #menu a{
@@ -153,7 +153,7 @@ h2{
     height: auto;
     width: auto;
     text-align: center;
-    font-size: 75%;
+    font-size: 80%;
 }
 
 #footer a{
@@ -185,7 +185,7 @@ h2{
 }
 
 .list{
-    
+
 }
 
 @media only screen and (min-width: 736px) {
@@ -225,6 +225,7 @@ h2{
         float: right;
         top:-38px;
         overflow: hidden;
+        line-height: 30px;
     }
     #menu li{
         float: left;
