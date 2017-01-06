@@ -180,9 +180,13 @@ h2{
     margin-bottom: 8px;
 }
 
+@media only screen and (min-width: 730px) {
+    #menu{
+        right: 14px;
+    }
+}
 
-
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 715px) {
     body {
         font-size: 14px;
     }
@@ -208,6 +212,7 @@ h2{
         width: auto;
         background-color: black;
         float: right;
+
         bottom: 38px;
     }
     #menu li{
@@ -241,7 +246,6 @@ h2{
     #footer{
 
     }
-
     .menu-icon{
         display: none;
     }
