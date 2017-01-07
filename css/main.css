@@ -13,9 +13,12 @@ body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 p{
-    font-size: 100%;
+    display: block;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 100%;
     text-align: left;
     line-height: 150%;
 }
@@ -27,27 +30,28 @@ img{
     height: auto;
     margin: auto;
     display: block;
+    margin-bottom: 1em;
 }
 
 h1{
     display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
+    font-size: 1.5em;
+    margin-top: 0.375em;
+    margin-bottom: 0.375em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    line-height: 100%;
+    line-height: 120%;
 }
 h2{
     display: block;
-    font-size: 1.5em;
-    margin-top: 0.67em;
-    margin-bottom: 0.6em;
+    font-size: 1.25em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    line-height: 100%;
+    line-height: 120%;
 }
 
 #logo{
@@ -179,15 +183,18 @@ h2{
     width: 150px;
     height: auto;
     margin: auto;
+
 }
 .homepics{
     width: auto;
-    margin-bottom: 8px;
 }
 #pic404{
     width: 300px;
 }
+#me{
+    width: 300px;
 
+}
 
 .list{
 
@@ -205,6 +212,12 @@ h2{
     }
     img{
         width: 300px;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
     }
     #wrap{
         width: 856px;
@@ -269,7 +282,7 @@ h2{
     .picH{
         float: left;
         width: 120px;
-        margin-right: 10px;
+        margin-right: 12px;
     }
 
 
