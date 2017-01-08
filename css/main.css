@@ -267,6 +267,7 @@ h2{
         border-top: 4px solid black;
         border-bottom: 4px solid black;
     }
+    #menuToggle:checked  ~ #top {border-bottom: 4px solid black;}
     #header{
         border-top: 3px solid #ffd100;
         border-bottom: 3px solid #ffd100;
