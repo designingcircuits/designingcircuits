@@ -228,7 +228,7 @@ a:active{
 #box a{
     display: inline-block;
     margin-bottom: .8em;
-    width: calc(50% - .5em);
+    width: calc(33.33333% - .5em);
     text-decoration: none;
     color: black;
 }
@@ -244,14 +244,15 @@ figure {
   overflow: hidden;
 }
 figcaption {
-  margin-top: 15px;
+  margin-top: 1em;
+  font-size: 80%;
 }
 #box img {
   border: none;
   max-width: 100%;
   height: auto;
   display: block;
-  
+
 
 }
 
