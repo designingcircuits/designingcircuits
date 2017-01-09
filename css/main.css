@@ -24,6 +24,8 @@ p{
 }
 ul{
     line-height: 150%;
+    list-style-type: none;
+    padding: 0;
 }
 img{
     max-width: 100%;
@@ -52,6 +54,19 @@ h2{
     margin-right: 0;
     font-weight: bold;
     line-height: 120%;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  text-decoration: underline;
+  color: #ffd100;
 }
 
 #logo{
@@ -162,19 +177,19 @@ h2{
 }
 
 #footer a{
-    margin: 0;
     color: gray;
-    text-decoration: none;
 }
 #footer a:visited{
     color: gray
 }
 #footer a:hover{
-    color: #ffd100;
+  text-decoration: underline;
 }
 #footer a:active{
-    color: #ffd100;
+  text-decoration: underline;
+  color: #ffd100;
 }
+
 
 .homenav{
     display: block;
@@ -197,7 +212,8 @@ h2{
 }
 
 .list{
-
+    padding-left: 2em;
+    list-style: initial;
 }
 
 @media only screen and (min-width: 736px) {
