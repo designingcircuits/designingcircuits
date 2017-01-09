@@ -223,20 +223,14 @@ a:active{
 #box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #box a{
     display: inline-block;
     margin-bottom: .8em;
-    width: calc(33.33333% - .5em);
+    width: calc(50% - 6px);
     text-decoration: none;
     color: black;
-}
-
-@media screen and (min-width: 50em) {
-  #box a{
-    width: calc(25% - 6px);
-  }
 }
 
 figure {
@@ -252,9 +246,23 @@ figcaption {
   max-width: 100%;
   height: auto;
   display: block;
-
-
 }
+
+@media screen and (min-width: 540px) {
+  #box a{
+    width: calc(33.3333% - 10px);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #box a{
+    width: calc(25% - 10px);
+  }
+  figcaption {
+    font-size: 100%;
+  }
+}
+
 
 
 
