@@ -11,50 +11,95 @@
 <body>
 
   <div id="wrap">
-    <div id="header">
-        <input type="checkbox" id="menuToggle">
-
-        <div id="top">
-          <div id="logo">
-            <a href="css/.."><img id="title" src="img/title.PNG" alt="Designing Circuits"></a>
+    <div id="border">
+      <div id="header">
+          <input type="checkbox" id="menuToggle">
+          <div id="top">
+            <div id="logo">
+              <a href="./"><img id="title" src="img/title.PNG" alt="Designing Circuits"></a>
+            </div>
+            <div id="menubox">
+              <label for="menuToggle" class="menu-icon">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </label>
+            </div>
           </div>
-
-          <div id="menubox">
-            <label for="menuToggle" class="menu-icon">
-              <i class="fa fa-bars" aria-hidden="true"></i>
-            </label>
+          <div class="nav">
+            <ul id="menu">
+              <li><a class="active" href="./"><i class="fa fa-home fa-fw n" aria-hidden="true"></i> Home</a></li>
+              <li><a href="circuits"><i class="fa fa-microchip fa-fw n" aria-hidden="true"></i> Circuits</a></li>
+              <li><a href="projects"><i class="fa fa-plug fa-fw n" aria-hidden="true"></i> Projects</a></li>
+              <li><a href="resources"><i class="fa fa-book fa-fw n" aria-hidden="true"></i> Resources</a></li>
+              <li><a href="about"><i class="fa fa-info-circle fa-fw n" aria-hidden="true"></i> About</a></li>
+            </ul>
           </div>
-        </div>
-
-        <div class="nav">
-          <ul id="menu">
-            <li><a class="active" href="css/.."><i class="fa fa-home fa-fw n" aria-hidden="true"></i> Home</a></li>
-            <li><a href="circuits"><i class="fa fa-microchip fa-fw n" aria-hidden="true"></i> Circuits</a></li>
-            <li><a href="projects"><i class="fa fa-plug fa-fw n" aria-hidden="true"></i> Projects</a></li>
-            <li><a href="resources"><i class="fa fa-book fa-fw n" aria-hidden="true"></i> Resources</a></li>
-            <li><a href="terms"><i class="fa fa-gavel fa-fw n" aria-hidden="true"></i> Terms</a></li>
-            <li><a href="about"><i class="fa fa-info-circle fa-fw n" aria-hidden="true"></i> About</a></li>
-          </ul>
-        </div>
+      </div>
     </div>
 
     <div id="page">
       <h1>Welcome</h1>
-      
+      <p>
+        If you're fascinated about electronics and want to learn more, then this
+        is the place for you! This site is meant to teach you how to design circuits.
+        As long as you know the basics of circuit theory, you should easily be
+        able to learn from and follow the posts and projects.
+      </p>
+
+      <div id="container">
+        <div class="homenav">
+          <h2>Circuits</h2>
+          <div class="homepic">
+            <a href="circuits"><img src="img/homecircuit.png"></a>
+          </div>
+          <p>
+            Learn the design theory the behind different types of circuits that use resistors,
+            capacitors, inductors, diodes, MOSFETs, and BJTs. The basic operation
+            behind amplifiers, power converters, oscillators,
+            and more, are explained. Be sure to check out various posts as you may
+            end up learning something you didn't before!
+          </p>
+        </div>
+
+        <div class="homenav">
+          <h2>Projects</h2>
+          <div class="homepic">
+            <a href="projects"><img src="img/homeprojects.jpg"></a>
+          </div>
+          <p>
+            Explore many projects that incorporate the circuit concepts that you
+            have learned. Every project includes a parts list and step-by-step instructions,
+            allowing you to make the project on your own. Each design aspect and choice
+            is thoroughly explained, so you can understand the design process. Each
+            project is a great way to get your hands dirty and start building electronics.
+          </p>
+        </div>
+
+        <div class="homenav">
+          <h2>Resources</h2>
+          <div class="homepic">
+            <a href="resources"><img src="img/homeresources.JPG"></a>
+          </div>
+          <p>
+            Take a look at the different resources available to you when it comes
+            to circuits. Posts include how to use and reviews of
+            the most common software and equipment relevant to electronics to get you
+            started designing. There are a good amount of links to useful third-party
+            websites given to help your learning.  These resources are just a few clicks away!
+          </p>
+        </div>
+      </div>
     </div>
     <div id="push"></div>
   </div>
 
   <div id="footer">
     <div>Copyright © 2017 DesigningCircuits. All Rights Reserved.</div>
-    <div>
-      <a href="css/..">Home</a> |
-      <a href="circuits">Circuits</a> |
-      <a href="projects">Projects</a> |
-      <a href="resources">Resources</a> |
-      <a href="terms">Terms</a> |
-      <a href="about">About</a>
-    </div>
+    <a href="./">Home</a> |
+    <a href="circuits">Circuits</a> |
+    <a href="projects">Projects</a> |
+    <a href="resources">Resources</a> |
+    <a href="about">About</a> &mdash;
+    <a href="terms">Terms</a>
   </div>
 
 </body>
