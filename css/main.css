@@ -154,7 +154,7 @@ a:active{
     min-height: 100%;
   	height: auto !important;
   	height: 100%;
-  	margin: 0 auto -48px;
+  	margin: 0 auto -60px;
 }
 
 #page{
@@ -162,12 +162,12 @@ a:active{
     margin-right: 1em;
 }
 #push {
-    height: 48px;
+    height: 60px;
 }
 
 #footer {
-    margin-top: 10px;
-    height: 48px;
+    margin-top: 2em;
+    height: 60px;
   	clear: both;
     color: gray;
     display: block;
@@ -214,8 +214,10 @@ a:active{
     width: 300px;
 }
 #me{
-    width: 300px;
+    width: 250px;
+
 }
+
 
 .list{
     padding-left: 2em;
@@ -370,7 +372,6 @@ figcaption {
         overflow: hidden;
         height: auto;
         width: calc(30% - 4px);
-        margin-top: 1em;
     }
     .homenav img{
         max-width: 100%;
@@ -386,5 +387,10 @@ figcaption {
 
     #pic404{
         width: 500px;
+    }
+    #me{
+        width: 150px;
+        margin-left: .5em;
+        float: right;
     }
 }
