@@ -1,104 +1,72 @@
-<!DOCTYPE html>
-<html>
-<head>
+---
+layout: page
+title: My website
+subtitle: This is where I will tell my friends way too much about me
+use-site-title: true
+---
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
 
-</head>
-<body>
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
 
-  <div id="wrap">
-    <div id="border">
-      <div id="header">
-          <input type="checkbox" id="menuToggle">
-          <div id="top">
-            <div id="logo">
-              <a href="./"><img id="title" src="img/title.PNG" alt="Designing Circuits"></a>
-            </div>
-            <div id="menubox">
-              <label for="menuToggle" class="menu-icon">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-              </label>
-            </div>
-          </div>
-          <div class="nav">
-            <ul id="menu">
-              <li><a class="active" href="./"><i class="fa fa-home fa-fw n" aria-hidden="true"></i> Home</a></li>
-              <li><a href="circuits"><i class="fa fa-microchip fa-fw n" aria-hidden="true"></i> Circuits</a></li>
-              <li><a href="projects"><i class="fa fa-plug fa-fw n" aria-hidden="true"></i> Projects</a></li>
-              <li><a href="resources"><i class="fa fa-book fa-fw n" aria-hidden="true"></i> Resources</a></li>
-              <li><a href="about"><i class="fa fa-info-circle fa-fw n" aria-hidden="true"></i> About</a></li>
-            </ul>
-          </div>
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+
+    <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
+      </div>
+      {% endif %}
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
       </div>
     </div>
 
-    <div id="page">
-      <h1>Welcome</h1>
-      <p>
-        If you want to learn more about circuit design then this
-        is the place for you! This site is meant to teach you how to design circuits.
-        I will focus mainly on analog circuits, IC and board level, since I find
-        analog design fascinating.
-      </p>
-
-      <div id="container">
-        <div class="homenav">
-          <h2>Circuits</h2>
-          <a href="circuits"><img src="img/homecircuit.png"></a>
-          <p>
-            Learn the design theory the behind different types of circuits that use resistors,
-            capacitors, inductors, diodes, MOSFETs, and BJTs. The basic operation
-            behind amplifiers, power converters, oscillators,
-            and more, are explained. Be sure to check out various posts as you may
-            end up learning something you didn't before!
-          </p>
-        </div>
-
-        <div class="homenav">
-          <h2>Projects</h2>
-            <a href="projects"><img src="img/homeprojects.jpg"></a>
-          <p>
-            Explore many projects that incorporate the circuit concepts that you
-            have learned. Every project includes a parts list and step-by-step instructions,
-            allowing you to make the project on your own. Each design aspect and choice
-            is thoroughly explained, so you can understand the design process. Each
-            project is a great way to get your hands dirty and start building electronics.
-
-            Explore multiple projects that incorpoarte important circuit concepts.
-            Projects are either at the IC level or board level. Each project has
-            a thorough step-by-step process
-          </p>
-        </div>
-
-        <div class="homenav">
-          <h2>Resources</h2>
-          <a href="resources"><img src="img/homeresources.JPG"></a>
-          <p>
-            Take a look at the different resources available to you when it comes
-            to circuits. Posts include how to use and reviews of
-            the most common software and equipment relevant to electronics to get you
-            started designing. There are a good amount of links to useful third-party
-            websites given to help your learning.  These resources are just a few clicks away!
-          </p>
-        </div>
-      </div>
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
     </div>
-    <div id="push"></div>
-  </div>
+    {% endif %}
 
-  <div id="footer">
-    <div>Copyright © 2017 DesigningCircuits. All Rights Reserved.</div>
-    <a href="./">Home</a> |
-    <a href="circuits">Circuits</a> |
-    <a href="projects">Projects</a> |
-    <a href="resources">Resources</a> |
-    <a href="about">About</a> &mdash;
-    <a href="terms">Terms</a>
-  </div>
+   </article>
+  {% endfor %}
+</div>
 
-</body>
-</html>
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
