@@ -224,7 +224,7 @@ img {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: red;
 }
 .navbar-default .navbar-toggle .icon-bar:hover,
 .navbar-default .navbar-toggle .icon-bar:focus {
