@@ -133,7 +133,7 @@ img {
   transition: height .5s ease-in-out;
 }
 .navbar-custom.top-nav-short .navbar-brand-logo {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .navbar-custom.top-nav-short .navbar-brand-logo img {
   height: 50px;
