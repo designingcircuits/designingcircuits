@@ -202,10 +202,6 @@ img {
     width: 100%;
   }
 }
-.fa fa-bars{
-  padding: 0;
-  margin: 0;
-}
 
 .navbar-toggle {
   position: relative;
@@ -229,13 +225,13 @@ img {
   background: black;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+/*.navbar-default .navbar-toggle .icon-bar {
   background-color: red;
-}
-.navbar-default .navbar-toggle .icon-bar:hover,
+}*/
+/*.navbar-default .navbar-toggle .icon-bar:hover,
 .navbar-default .navbar-toggle .icon-bar:focus {
   color: white;
-}
+}*/
 
 
 /* Multi-level navigation links */
