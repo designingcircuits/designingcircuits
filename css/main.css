@@ -220,7 +220,8 @@ img {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background: blue;
+  color: white;
+  background: black;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
