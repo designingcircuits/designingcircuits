@@ -203,6 +203,20 @@ img {
   }
 }
 
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 100px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid transparent;
+  border-radius: 4px;
+}
+
+
 /* Multi-level navigation links */
 .navbar-custom .nav .navlinks-container {
   position: relative;
