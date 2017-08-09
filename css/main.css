@@ -119,6 +119,7 @@ img {
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: #0085a1;
+  background: black;
 }
 
 .navbar-custom .navbar-brand-logo {
