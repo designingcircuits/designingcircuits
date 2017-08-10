@@ -225,13 +225,9 @@ img {
   background: black;
 }
 
-/*.navbar-default .navbar-toggle .icon-bar {
-  background-color: red;
-}*/
-/*.navbar-default .navbar-toggle .icon-bar:hover,
-.navbar-default .navbar-toggle .icon-bar:focus {
-  color: white;
-}*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #404040;
+}
 
 
 /* Multi-level navigation links */
