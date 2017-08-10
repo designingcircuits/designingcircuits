@@ -126,14 +126,14 @@ img {
   transition: height .5s ease-in-out;*/
 }
 .navbar-custom .navbar-brand-logo {
-  padding-top: 0;
+  padding-top: 5px;
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
 }
 
 .navbar-custom.top-nav-short .navbar-brand-logo {
-  padding-top: 0px;
+  padding-top: 5px;
 }
 .navbar-custom.top-nav-short .navbar-brand-logo img {
   height: 40px;
