@@ -133,7 +133,7 @@ img {
   transition: height .5s ease-in-out;
 }
 .navbar-custom.top-nav-short .navbar-brand-logo {
-  padding-top: 20px;
+  padding-top: 5px;
 }
 .navbar-custom.top-nav-short .navbar-brand-logo img {
   height: 40px;
@@ -141,7 +141,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 0px;
+    padding: 20px 0;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
